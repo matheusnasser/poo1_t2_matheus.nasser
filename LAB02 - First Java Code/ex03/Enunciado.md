@@ -6,29 +6,33 @@ abaixo e faça um programa principal que chame todos esses métodos
 
 - Faça um método chamado imprime_ponto, que mostra na tela o ponto no seguinte formato (ponto.x, ponto.y)
 
+````{verbatim}
 Exemplo de Saída:
 Digite o valor de x: 10
 Digite o valor de y: 5
 O ponto digitado é: (10,5)
-
+````
 - Faca um método que some dois pontos. Mostre os 3 pontos usando o método imprime_ponto.
 
+````{verbatim}
 Exemplo de saída:
 Digite o valor de x1: 1
 Digite o valor de y1: 2
 Digite o valor de x2: 3
 Digite o valor de y2: 4
 A soma de (1,2) com (3,4) é (4,6)
-
+````
 - Crie um procedimento idêntico ao exercício anterior, mas que agora retorne void e coloque o resultado
 da soma no terceiro argumento da função (usar método estático).
 
+````{verbatim}
 Exemplo de saída:
 Digite o valor de x1: 1
 Digite o valor de y1: 2
 Digite o valor de x2: 3
 Digite o valor de y2: 4
 A soma de (1,2) com (3,4) é (4,6)
+````
 
 - Faça um método estático que calcule a área do retângulo definido por dois pontos. Faça testes para valores inválidos.
 Cabeçalho: area = Ponto.calc_area(p1,p2)
