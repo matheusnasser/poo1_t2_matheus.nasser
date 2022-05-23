@@ -37,11 +37,12 @@ A área do retângulo definido por (1,4) e (4,2) é 6
 
 - Faça um método que multiplique o valor de um ponto por uma constante e altere o valor do ponto. 
 
+````{verbatim}
 Exemplo de saída:
 Digite o ponto: 1,2
 Digite a constante: 5
 Resultado: (1,2) * 5 = (5,10)
-
+````
 
 - Faça um procedimento chamado inc_dir, que faz o ponto andar uma unidade para leste, oeste, norte, sul
 
