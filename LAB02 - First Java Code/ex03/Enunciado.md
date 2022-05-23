@@ -32,8 +32,11 @@ A soma de (1,2) com (3,4) é (4,6)
 
 - Faça um método estático que calcule a área do retângulo definido por dois pontos. Faça testes para valores inválidos.
 Cabeçalho: area = Ponto.calc_area(p1,p2)
+
+````{verbatim}
 Exemplo de saída:
 A área do retângulo definido por (1,4) e (4,2) é 6
+````
 
 - Faça um método que multiplique o valor de um ponto por uma constante e altere o valor do ponto. 
 
@@ -47,22 +50,26 @@ Resultado: (1,2) * 5 = (5,10)
 - Faça um procedimento chamado inc_dir, que faz o ponto andar uma unidade para leste, oeste, norte, sul
 
 
+````{verbatim}
 p.inc_dir(’l’); // anda uma unidade para o leste (incrementa x)
 p.inc_dir(’o’); // anda uma unidade para o oeste (decrementa x)
 
 Exemplo de saída:
 (1,3) norte => (1,4)
 (2,4) leste => (3,4)
+````
 
 - Crie um procedimento para andar na diagonal (sudeste, sudoeste, nordeste, noroeste). 
 Use obrigatoriamente as funções do exercício anterior.
 
+````{verbatim}
 p.ind_diag("sudeste”); 
 p.ind_diag(”sudoeste”);
 
 Exemplo de saída:
 (1,3) sudeste => (2,2)
 (2,4) sudoeste => (1,3)
+````
 
 - Crie um programa que usa a classe Ponto e que cria um array de pontos. 
 Peça para o usuário indicar quantos pontos deseja cadastrar. Cadastre os pontos.
